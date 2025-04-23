@@ -1,0 +1,26 @@
+
+import { Link } from "react-router-dom"
+
+const Navigation = () => {
+  return (
+    <nav className="fixed w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between h-16">
+          <Link to="/" className="text-[#008AFA] font-bold text-xl">
+            LegalTech AI
+          </Link>
+          <div className="space-x-8">
+            <Link to="/" className="text-[#000000] hover:text-[#008AFA] transition-colors">
+              Home
+            </Link>
+            <Link to="/about" className="text-[#000000] hover:text-[#008AFA] transition-colors">
+              About
+            </Link>
+          </div>
+        </div>
+      </div>
+    </nav>
+  )
+}
+
+export default Navigation
