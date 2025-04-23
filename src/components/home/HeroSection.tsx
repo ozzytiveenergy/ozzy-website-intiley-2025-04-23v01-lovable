@@ -23,7 +23,7 @@ const HeroSection = () => {
             </Button>
             <Button 
               variant="outline"
-              className="border-white text-[#008AFF] hover:bg-white/10"
+              className="border-white text-white hover:bg-white/10"
             >
               Explore Features
             </Button>
