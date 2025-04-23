@@ -1,0 +1,37 @@
+
+import { Button } from "@/components/ui/button"
+import { Link } from "react-router-dom"
+import { ArrowRight } from "lucide-react"
+
+const HeroSection = () => {
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-[#008AFA] to-[#0066BB]">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col items-center justify-center min-h-screen text-white text-center">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+            Redefining Legal Workflows with AI
+          </h1>
+          <p className="text-xl md:text-2xl mb-8 max-w-3xl">
+            An intelligent platform built by legal, AI, and business process experts — designed to help law firms process complex, unstructured legal knowledge with precision, speed, and confidence.
+          </p>
+          <div className="space-x-4">
+            <Button 
+              variant="default"
+              className="bg-white text-[#008AFA] hover:bg-gray-100"
+            >
+              Request a Demo <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+            <Button 
+              variant="outline"
+              className="border-white text-white hover:bg-white/10"
+            >
+              Explore Features
+            </Button>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default HeroSection
