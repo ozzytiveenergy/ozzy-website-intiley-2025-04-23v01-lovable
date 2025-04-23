@@ -28,6 +28,15 @@ const HeroSection = () => {
               Explore Features
             </Button>
           </div>
+          
+          {/* New logo section */}
+          <div className="mt-12 mb-8">
+            <img 
+              src="/lovable-uploads/99ca2a83-ced7-4a0e-991c-5e2437a9e2f9.png" 
+              alt="INTILey White Logo" 
+              className="h-16 w-auto opacity-70 hover:opacity-100 transition-opacity"
+            />
+          </div>
         </div>
       </div>
     </div>
