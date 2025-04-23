@@ -18,7 +18,7 @@ const CtaSection = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button 
                 variant="default"
-                className="bg-white text-[#008AFA] hover:bg-white/10"
+                className="bg-white text-[#008AFA] hover:bg-white/90"
               >
                 Request a Demo <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
