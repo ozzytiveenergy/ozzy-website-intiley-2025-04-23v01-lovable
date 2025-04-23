@@ -17,7 +17,7 @@ const HeroSection = () => {
           <div className="space-x-4">
             <Button 
               variant="default"
-              className="bg-white text-[#008AFA] hover:bg-gray-100"
+              className="bg-white text-[#008AFA] hover:bg-white/90"
             >
               Request a Demo <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
