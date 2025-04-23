@@ -26,7 +26,7 @@ const CtaSection = () => {
                 variant="outline"
                 className="border-white text-[#008AFF] hover:bg-white/10"
               >
-                Explore Features
+                Contact Us
               </Button>
             </div>
           </div>
