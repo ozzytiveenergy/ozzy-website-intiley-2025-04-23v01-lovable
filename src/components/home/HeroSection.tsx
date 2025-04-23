@@ -34,7 +34,7 @@ const HeroSection = () => {
             <img 
               src="/lovable-uploads/99ca2a83-ced7-4a0e-991c-5e2437a9e2f9.png" 
               alt="INTILey White Logo" 
-              className="h-16 w-auto opacity-70 hover:opacity-100 transition-opacity"
+              className="h-32 w-auto opacity-85 hover:opacity-100 transition-opacity"
             />
           </div>
         </div>
