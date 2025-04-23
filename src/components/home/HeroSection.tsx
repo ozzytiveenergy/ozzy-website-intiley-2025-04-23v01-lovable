@@ -12,7 +12,7 @@ const HeroSection = () => {
             Redefining Legal Workflows with AI
           </h1>
           <p className="text-xl md:text-2xl mb-8 max-w-3xl">
-            An intelligent platform built by legal, AI, and business process experts — designed to help law firms process complex, unstructured legal knowledge with precision, speed, and confidence.
+            An intelligent platform by INTILey — built by legal, AI, and business process experts designed to help law firms process complex, unstructured legal knowledge with precision, speed, and confidence.
           </p>
           <div className="space-x-4">
             <Button 
