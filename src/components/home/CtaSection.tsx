@@ -2,8 +2,14 @@
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
 import { ArrowRight } from "lucide-react"
+import { format } from "date-fns"
 
 const CtaSection = () => {
+  const handleContactClick = () => {
+    const currentDateTime = format(new Date(), "yyyy-MM-dd HH:mm:ss")
+    window.location.href = `mailto:info@intiley.com?subject=INTILey webpage Contact Us – ${currentDateTime}`
+  }
+
   return (
     <div className="bg-gradient-to-b from-[#008AFA] to-[#0066BB] py-16">
       <div className="container mx-auto px-4">
@@ -29,7 +35,7 @@ const CtaSection = () => {
               <Button 
                 variant="outline"
                 className="border-white text-[#008AFF] hover:bg-white/10"
-                onClick={() => window.location.href = "mailto:info@intiley.com"}
+                onClick={handleContactClick}
               >
                 Contact Us
               </Button>
