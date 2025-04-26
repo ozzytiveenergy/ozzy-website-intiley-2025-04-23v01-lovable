@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button"
 import { Link } from "react-router-dom"
 import { ArrowRight } from "lucide-react"
@@ -13,7 +12,7 @@ const HeroSection = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#008AFA] to-[#0066BB]">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col items-center justify-center min-h-screen text-white text-center">
+        <div className="flex flex-col items-center justify-center min-h-screen text-white text-center py-12">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Redefining Legal Workflows with AI
           </h1>
