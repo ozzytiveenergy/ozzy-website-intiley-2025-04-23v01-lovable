@@ -13,7 +13,7 @@ const HeroSection = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#008AFA] to-[#0066BB]">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col items-center justify-center min-h-screen text-white text-center py-6">
+        <div className="flex flex-col items-center justify-center min-h-screen text-white text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
             Redefining Legal Workflows with AI
           </h1>
@@ -39,8 +39,8 @@ const HeroSection = () => {
             </Button>
           </div>
           
-          {/* New logo section */}
-          <div className="mt-12 mb-8">
+          {/* Logo section with reduced bottom margin */}
+          <div className="mt-12 mb-4">
             <img 
               src="/lovable-uploads/99ca2a83-ced7-4a0e-991c-5e2437a9e2f9.png" 
               alt="INTILey White Logo" 
